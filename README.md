@@ -11,7 +11,7 @@ One way to exploit the Arbitrary-Write vulnerability
     Systemtype x64
 
 ## DEMO:
-  ![PoC](https://github.com/schxeat/HEVD-ArbitraryWrite/tree/main/resources/PoC.gif)
+![PoC](https://github.com/schxeat/HEVD-ArbitraryWrite/tree/main/resources/PoC.gif)
 
 I discovered that 'guard_dispatch_icall' only checks whether 'rax(=HalDispatchTable)' is a kernel address. If 'rax' is not a kernel address, a bug check is called. 
 ![1](https://github.com/schxeat/HEVD-ArbitraryWrite/tree/main/resources/guard_dispatch_call_1.png).
