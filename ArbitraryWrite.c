@@ -106,7 +106,7 @@ void test()
 			   );
 }
 
-unsigned long long kernelBase(void) //thx to Connor McGarr
+unsigned long long kernelBase(void) //thx to Connor McGarr (https://connormcgarr.github.io/Kernel-Exploitation-2/)
 {
 		LPVOID lpImagebase[1024];
 		DWORD lpcbRequired;
